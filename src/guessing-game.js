@@ -12,7 +12,7 @@ class GuessingGame {
     }
 
     guess() {
-        this.candidate = (this.min + this.max) / 2
+        this.candidate = Math.round((this.min + this.max) / 2)
         return this.candidate
     }
 
@@ -21,7 +21,7 @@ class GuessingGame {
     }
 
     greater() {
-
+        this.min = this.candidate
     }
 }
 
