@@ -17,7 +17,7 @@ class GuessingGame {
     }
 
     lower() {
-
+        this.max = this.candidate
     }
 
     greater() {
